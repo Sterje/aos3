@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    height: 100vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,4 +31,111 @@ header p {
     font-size: 1.5rem;
     color: #fff;
     margin-top: 1rem;
+}
+
+.cards-container {
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardtext {
+    width: 15rem;
+    height: 20rem;
+    padding: 1rem;
+    background-image: linear-gradient(to right top, #380101, #590000, #950202, #c70303, #ff0000);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+
+.cardimg {
+    width: 15rem;
+    height: 20rem;
+    border-radius: 5px;
+    background-image: url(img/streets.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cardimg2 {
+    width: 15rem;
+    height: 20rem;
+    border-radius: 5px;
+    background-image: url(img/streets2.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.div-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+
+.imgcard {
+    width: 30rem;
+    height: 20rem;
+    background-image: url(img/louvren.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/* .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 30rem;
+    background: #eee;
+} */
+
+.card {
+    display: flex;
+    width: 25rem;
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.textcard {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 20rem;
+    padding: 1rem;
+    background-image: linear-gradient(to right top, #380101, #590000, #950202, #c70303, #ff0000);
+    overflow: hidden;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+   
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.up {
+    color: #ed3030;
+    font-size: 4rem;
+    font-style: italic;
+}
+
+.left {
+    color: #ed3030;
+    font-size: 4rem;
+    font-style: italic;
 }
