@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #211f1f;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    color: #fff;
+}
+
+h1 span {
+    color: #ed3030;
+}
+
+header p {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 1rem;
+}
